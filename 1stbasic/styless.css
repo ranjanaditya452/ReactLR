@@ -1,0 +1,25 @@
+.parents > div{
+  border:
+    2px solid hsl(260deg 8% 50%);
+      border-radius: 4px;
+  color: white;
+  font-weight: 700;
+  background-color: yellow;
+    aspect-ratio: 1 / 1;
+    border: 1px solid red;
+    
+}
+.parents{
+    border: 1px solid blue;
+display: grid;
+grid-template-columns:  repeat(8, 50px);
+gap: 4px;
+justify-content: space-around;
+
+width: 500px;
+}
+#des{
+    grid-column: 1/1;
+    grid-row: 2/2;
+    background-color: black;
+}
