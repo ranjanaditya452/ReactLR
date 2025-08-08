@@ -10,7 +10,7 @@
     
 }
 .parents{
-    border: 1px solid blue;
+    border: 1px solid  blue;
 display: grid;
 grid-template-columns:  repeat(8, 50px);
 gap: 4px;
