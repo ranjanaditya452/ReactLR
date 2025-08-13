@@ -34,3 +34,21 @@ function starbucks()
 }
 
 lunch('veg crispy','Mutter Paneer', starbucks)
+
+
+let player={
+    jno:18,         //number as a value
+    pname:'Virat',  //string as a value
+    mp:100,         //number as a value
+    rs:10000,        //number as a value
+    'mom-name': 'Saroj',
+    mom: 500,
+
+    avg: function calculateAvg(a,b)  //function as a vlaue
+         {
+              console.log(a/b)
+         }
+                   
+}
+player="Apple"
+console.log(player)
